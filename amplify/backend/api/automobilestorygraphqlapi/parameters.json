@@ -1,0 +1,5 @@
+{
+    "AppSyncApiName": "automobilestorygraphqlapi",
+    "DynamoDBBillingMode": "PAY_PER_REQUEST",
+    "DynamoDBEnableServerSideEncryption": "false"
+}

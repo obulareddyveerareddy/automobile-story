@@ -1,0 +1,21 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "automobilestory-dev-20190917200734-authRole",
+            "UnauthRoleArn": "arn:aws:iam::826425135021:role/automobilestory-dev-20190917200734-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::826425135021:role/automobilestory-dev-20190917200734-authRole",
+            "Region": "ap-south-1",
+            "DeploymentBucketName": "automobilestory-dev-20190917200734-deployment",
+            "UnauthRoleName": "automobilestory-dev-20190917200734-unauthRole",
+            "StackName": "automobilestory-dev-20190917200734",
+            "StackId": "arn:aws:cloudformation:ap-south-1:826425135021:stack/automobilestory-dev-20190917200734/afffb0f0-d958-11e9-85c1-0a6895f2a65c"
+        },
+        "categories": {
+            "auth": {
+                "automobilestory5d6de321": {
+                    "hostedUIProviderCreds": "[]"
+                }
+            }
+        }
+    }
+}

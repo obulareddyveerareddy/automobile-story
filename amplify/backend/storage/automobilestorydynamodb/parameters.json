@@ -1,0 +1,5 @@
+{
+    "tableName": "automobilestorydynamodb",
+    "partitionKeyName": "id",
+    "partitionKeyType": "N"
+}
