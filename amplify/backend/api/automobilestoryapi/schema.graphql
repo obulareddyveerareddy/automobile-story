@@ -14,13 +14,3 @@ type Comment @model {
   content: String
   post: Post @connection(name: "PostComments")
 }
-type Person @model {
-  id: ID!
-  firstName: String
-  lastName: String
-  mobile: String
-  email: String
-  password: String
-  orgName: String!
-  address: String
-}

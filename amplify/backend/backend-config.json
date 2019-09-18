@@ -1,19 +1,6 @@
 {
-	"auth": {
-		"automobilestory5d6de321": {
-			"service": "Cognito",
-			"providerPlugin": "awscloudformation",
-			"dependsOn": []
-		}
-	},
-	"storage": {
-		"automobilestorydynamodb": {
-			"service": "DynamoDB",
-			"providerPlugin": "awscloudformation"
-		}
-	},
 	"api": {
-		"automobilestorygraphqlapi": {
+		"automobilestoryapi": {
 			"service": "AppSync",
 			"providerPlugin": "awscloudformation",
 			"output": {
@@ -22,7 +9,7 @@
 					"defaultAuthentication": {
 						"authenticationType": "API_KEY",
 						"apiKeyConfig": {
-							"description": "automobilestorygraphqlapikey",
+							"description": "automobilestoryapikey",
 							"apiKeyExpirationDays": 180
 						}
 					}

@@ -110,36 +110,3 @@ export const listComments = `query ListComments(
   }
 }
 `;
-export const getPerson = `query GetPerson($id: ID!) {
-  getPerson(id: $id) {
-    id
-    firstName
-    lastName
-    mobile
-    email
-    password
-    orgName
-    address
-  }
-}
-`;
-export const listPersons = `query ListPersons(
-  $filter: ModelPersonFilterInput
-  $limit: Int
-  $nextToken: String
-) {
-  listPersons(filter: $filter, limit: $limit, nextToken: $nextToken) {
-    items {
-      id
-      firstName
-      lastName
-      mobile
-      email
-      password
-      orgName
-      address
-    }
-    nextToken
-  }
-}
-`;
